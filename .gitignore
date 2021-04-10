@@ -1,0 +1,11 @@
+/node_modules
+/production_node_modules
+/dist
+/yarn-error.log
+/tmp
+/test/fixtures/**/results.json
+
+# Outputs
+representation.txt
+mapping.json
+analysis.json
