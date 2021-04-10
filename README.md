@@ -3,7 +3,6 @@
 [![typescript-representer / deploy](https://github.com/exercism/typescript-representer/actions/workflows/deploys.yml/badge.svg)](https://github.com/exercism/typescript-representer/actions/workflows/deploys.yml)
 [![typescript-representer / main](https://github.com/exercism/typescript-representer/actions/workflows/ci.js.yml/badge.svg)](https://github.com/exercism/typescript-representer/actions/workflows/ci.js.yml)
 
-
 ## Installation
 
 Clone this repository and then run:
