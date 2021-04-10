@@ -1,0 +1,8 @@
+{
+  "composite": true,
+  "compilerOptions": {
+    "outDir": "../dist"
+  },
+  "extends": "../tsconfig.json",
+  "include": ["./"]
+}
