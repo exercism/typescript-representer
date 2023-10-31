@@ -23,7 +23,7 @@ mkdir -p "${tmp_fixtures_dir}"
 cp -R ${fixtures_dir}/* "${tmp_fixtures_dir}"
 
 # Iterate over all test directories
-for test_file in $(find "${tmp_fixtures_dir}" -name '*.test.ts'); do
+for test_file in $(find "${tmp_fixtures_dir}" -name expected_mapping.json); do
     slug=$(echo "${test_file:${#tmp_fixtures_dir}+1}" | cut -d / -f 1)
     test_dir=$(dirname "${test_file}")
     test_dir_name=$(basename "${test_dir}")

@@ -1,0 +1,1286 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "ClassDeclaration",
+        "id": {
+          "type": "Identifier",
+          "name": "IDENTIFIER_0"
+        },
+        "body": {
+          "type": "ClassBody",
+          "body": [
+            {
+              "type": "ClassProperty",
+              "key": {
+                "type": "Identifier",
+                "name": "IDENTIFIER_1"
+              },
+              "value": null,
+              "computed": false,
+              "static": false,
+              "declare": false,
+              "typeAnnotation": {
+                "type": "TSTypeAnnotation",
+                "typeAnnotation": {
+                  "type": "TSNumberKeyword"
+                }
+              },
+              "accessibility": "private",
+              "definite": true
+            },
+            {
+              "type": "ClassProperty",
+              "key": {
+                "type": "Identifier",
+                "name": "IDENTIFIER_2"
+              },
+              "value": null,
+              "computed": false,
+              "static": false,
+              "declare": false,
+              "typeAnnotation": {
+                "type": "TSTypeAnnotation",
+                "typeAnnotation": {
+                  "type": "TSNumberKeyword"
+                }
+              },
+              "accessibility": "private",
+              "definite": true
+            },
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier"
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "name": "IDENTIFIER_1",
+                    "typeAnnotation": {
+                      "type": "TSTypeAnnotation",
+                      "typeAnnotation": {
+                        "type": "TSNumberKeyword"
+                      }
+                    }
+                  },
+                  {
+                    "type": "AssignmentPattern",
+                    "left": {
+                      "type": "Identifier",
+                      "name": "IDENTIFIER_2",
+                      "typeAnnotation": {
+                        "type": "TSTypeAnnotation",
+                        "typeAnnotation": {
+                          "type": "TSNumberKeyword"
+                        }
+                      }
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "value": 0,
+                      "raw": "0"
+                    }
+                  }
+                ],
+                "generator": false,
+                "expression": false,
+                "async": false,
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "ThisExpression"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "IDENTIFIER_3"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [],
+                        "optional": false
+                      }
+                    },
+                    {
+                      "type": "VariableDeclaration",
+                      "declarations": [
+                        {
+                          "type": "VariableDeclarator",
+                          "id": {
+                            "type": "Identifier",
+                            "name": "IDENTIFIER_4"
+                          },
+                          "init": {
+                            "type": "BinaryExpression",
+                            "operator": "+",
+                            "left": {
+                              "type": "BinaryExpression",
+                              "operator": "*",
+                              "left": {
+                                "type": "Identifier",
+                                "name": "IDENTIFIER_1"
+                              },
+                              "right": {
+                                "type": "Literal",
+                                "value": 60,
+                                "raw": "60"
+                              }
+                            },
+                            "right": {
+                              "type": "Identifier",
+                              "name": "IDENTIFIER_2"
+                            }
+                          }
+                        }
+                      ],
+                      "kind": "const"
+                    },
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "ThisExpression"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "IDENTIFIER_5"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "name": "IDENTIFIER_4"
+                          }
+                        ],
+                        "optional": false
+                      }
+                    }
+                  ]
+                }
+              },
+              "computed": false,
+              "static": false,
+              "kind": "constructor"
+            },
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier",
+                "name": "IDENTIFIER_3"
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "generator": false,
+                "expression": false,
+                "async": false,
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "AssignmentExpression",
+                        "operator": "=",
+                        "left": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "ThisExpression"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "IDENTIFIER_1"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "right": {
+                          "type": "Literal",
+                          "value": 0,
+                          "raw": "0"
+                        }
+                      }
+                    },
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "AssignmentExpression",
+                        "operator": "=",
+                        "left": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "ThisExpression"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "IDENTIFIER_2"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "right": {
+                          "type": "Literal",
+                          "value": 0,
+                          "raw": "0"
+                        }
+                      }
+                    }
+                  ]
+                },
+                "params": [],
+                "returnType": {
+                  "type": "TSTypeAnnotation",
+                  "typeAnnotation": {
+                    "type": "TSVoidKeyword"
+                  }
+                }
+              },
+              "computed": false,
+              "static": false,
+              "kind": "method",
+              "accessibility": "private"
+            },
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier",
+                "name": "IDENTIFIER_6"
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "generator": false,
+                "expression": false,
+                "async": false,
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "ReturnStatement",
+                      "argument": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "ThisExpression"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "IDENTIFIER_1"
+                        },
+                        "computed": false,
+                        "optional": false
+                      }
+                    }
+                  ]
+                },
+                "params": [],
+                "returnType": {
+                  "type": "TSTypeAnnotation",
+                  "typeAnnotation": {
+                    "type": "TSNumberKeyword"
+                  }
+                }
+              },
+              "computed": false,
+              "static": false,
+              "kind": "method",
+              "accessibility": "public"
+            },
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier",
+                "name": "IDENTIFIER_7"
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "generator": false,
+                "expression": false,
+                "async": false,
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "ReturnStatement",
+                      "argument": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "ThisExpression"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "IDENTIFIER_2"
+                        },
+                        "computed": false,
+                        "optional": false
+                      }
+                    }
+                  ]
+                },
+                "params": [],
+                "returnType": {
+                  "type": "TSTypeAnnotation",
+                  "typeAnnotation": {
+                    "type": "TSNumberKeyword"
+                  }
+                }
+              },
+              "computed": false,
+              "static": false,
+              "kind": "method",
+              "accessibility": "public"
+            },
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier"
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "generator": false,
+                "expression": false,
+                "async": false,
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "ReturnStatement",
+                      "argument": {
+                        "type": "TemplateLiteral",
+                        "quasis": [
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "",
+                              "cooked": ""
+                            },
+                            "tail": false
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": ":",
+                              "cooked": ":"
+                            },
+                            "tail": false
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "",
+                              "cooked": ""
+                            },
+                            "tail": true
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "CallExpression",
+                            "callee": {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "ThisExpression"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "IDENTIFIER_8"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "arguments": [
+                              {
+                                "type": "MemberExpression",
+                                "object": {
+                                  "type": "ThisExpression"
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "name": "IDENTIFIER_1"
+                                },
+                                "computed": false,
+                                "optional": false
+                              }
+                            ],
+                            "optional": false
+                          },
+                          {
+                            "type": "CallExpression",
+                            "callee": {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "ThisExpression"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "IDENTIFIER_8"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "arguments": [
+                              {
+                                "type": "MemberExpression",
+                                "object": {
+                                  "type": "ThisExpression"
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "name": "IDENTIFIER_2"
+                                },
+                                "computed": false,
+                                "optional": false
+                              }
+                            ],
+                            "optional": false
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                "params": [],
+                "returnType": {
+                  "type": "TSTypeAnnotation",
+                  "typeAnnotation": {
+                    "type": "TSStringKeyword"
+                  }
+                }
+              },
+              "computed": false,
+              "static": false,
+              "kind": "method",
+              "accessibility": "public"
+            },
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier",
+                "name": "IDENTIFIER_8"
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "generator": false,
+                "expression": false,
+                "async": false,
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "VariableDeclaration",
+                      "declarations": [
+                        {
+                          "type": "VariableDeclarator",
+                          "id": {
+                            "type": "Identifier",
+                            "name": "IDENTIFIER_10"
+                          },
+                          "init": {
+                            "type": "CallExpression",
+                            "callee": {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "IDENTIFIER_9"
+                              },
+                              "property": {
+                                "type": "Identifier"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "arguments": [],
+                            "optional": false
+                          }
+                        }
+                      ],
+                      "kind": "const"
+                    },
+                    {
+                      "type": "ReturnStatement",
+                      "argument": {
+                        "type": "ConditionalExpression",
+                        "test": {
+                          "type": "BinaryExpression",
+                          "operator": "===",
+                          "left": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "Identifier",
+                              "name": "IDENTIFIER_10"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "IDENTIFIER_11"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "right": {
+                            "type": "Literal",
+                            "value": 1,
+                            "raw": "1"
+                          }
+                        },
+                        "consequent": {
+                          "type": "TemplateLiteral",
+                          "quasis": [
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "0",
+                                "cooked": "0"
+                              },
+                              "tail": false
+                            },
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "",
+                                "cooked": ""
+                              },
+                              "tail": true
+                            }
+                          ],
+                          "expressions": [
+                            {
+                              "type": "Identifier",
+                              "name": "IDENTIFIER_10"
+                            }
+                          ]
+                        },
+                        "alternate": {
+                          "type": "Identifier",
+                          "name": "IDENTIFIER_10"
+                        }
+                      }
+                    }
+                  ]
+                },
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "name": "IDENTIFIER_9",
+                    "typeAnnotation": {
+                      "type": "TSTypeAnnotation",
+                      "typeAnnotation": {
+                        "type": "TSNumberKeyword"
+                      }
+                    }
+                  }
+                ],
+                "returnType": {
+                  "type": "TSTypeAnnotation",
+                  "typeAnnotation": {
+                    "type": "TSStringKeyword"
+                  }
+                }
+              },
+              "computed": false,
+              "static": false,
+              "kind": "method",
+              "accessibility": "private"
+            },
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier",
+                "name": "IDENTIFIER_12"
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "generator": false,
+                "expression": false,
+                "async": false,
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "ThisExpression"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "IDENTIFIER_5"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "name": "IDENTIFIER_13"
+                          }
+                        ],
+                        "optional": false
+                      }
+                    },
+                    {
+                      "type": "ReturnStatement",
+                      "argument": {
+                        "type": "ThisExpression"
+                      }
+                    }
+                  ]
+                },
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "name": "IDENTIFIER_13",
+                    "typeAnnotation": {
+                      "type": "TSTypeAnnotation",
+                      "typeAnnotation": {
+                        "type": "TSNumberKeyword"
+                      }
+                    }
+                  }
+                ],
+                "returnType": {
+                  "type": "TSTypeAnnotation",
+                  "typeAnnotation": {
+                    "type": "TSTypeReference",
+                    "typeName": {
+                      "type": "Identifier",
+                      "name": "IDENTIFIER_0"
+                    }
+                  }
+                }
+              },
+              "computed": false,
+              "static": false,
+              "kind": "method",
+              "accessibility": "public"
+            },
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier",
+                "name": "IDENTIFIER_14"
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "generator": false,
+                "expression": false,
+                "async": false,
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "ThisExpression"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "IDENTIFIER_5"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "BinaryExpression",
+                            "operator": "*",
+                            "left": {
+                              "type": "UnaryExpression",
+                              "operator": "-",
+                              "prefix": true,
+                              "argument": {
+                                "type": "Literal",
+                                "value": 1,
+                                "raw": "1"
+                              }
+                            },
+                            "right": {
+                              "type": "Identifier",
+                              "name": "IDENTIFIER_13"
+                            }
+                          }
+                        ],
+                        "optional": false
+                      }
+                    },
+                    {
+                      "type": "ReturnStatement",
+                      "argument": {
+                        "type": "ThisExpression"
+                      }
+                    }
+                  ]
+                },
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "name": "IDENTIFIER_13",
+                    "typeAnnotation": {
+                      "type": "TSTypeAnnotation",
+                      "typeAnnotation": {
+                        "type": "TSNumberKeyword"
+                      }
+                    }
+                  }
+                ],
+                "returnType": {
+                  "type": "TSTypeAnnotation",
+                  "typeAnnotation": {
+                    "type": "TSTypeReference",
+                    "typeName": {
+                      "type": "Identifier",
+                      "name": "IDENTIFIER_0"
+                    }
+                  }
+                }
+              },
+              "computed": false,
+              "static": false,
+              "kind": "method",
+              "accessibility": "public"
+            },
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier",
+                "name": "IDENTIFIER_15"
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "generator": false,
+                "expression": false,
+                "async": false,
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "ReturnStatement",
+                      "argument": {
+                        "type": "LogicalExpression",
+                        "operator": "&&",
+                        "left": {
+                          "type": "BinaryExpression",
+                          "operator": "===",
+                          "left": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "ThisExpression"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "IDENTIFIER_1"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "right": {
+                            "type": "CallExpression",
+                            "callee": {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "IDENTIFIER_16"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "IDENTIFIER_6"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "arguments": [],
+                            "optional": false
+                          }
+                        },
+                        "right": {
+                          "type": "BinaryExpression",
+                          "operator": "===",
+                          "left": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "ThisExpression"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "IDENTIFIER_2"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "right": {
+                            "type": "CallExpression",
+                            "callee": {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "IDENTIFIER_16"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "IDENTIFIER_7"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "arguments": [],
+                            "optional": false
+                          }
+                        }
+                      }
+                    }
+                  ]
+                },
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "name": "IDENTIFIER_16",
+                    "typeAnnotation": {
+                      "type": "TSTypeAnnotation",
+                      "typeAnnotation": {
+                        "type": "TSTypeReference",
+                        "typeName": {
+                          "type": "Identifier",
+                          "name": "IDENTIFIER_0"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "returnType": {
+                  "type": "TSTypeAnnotation",
+                  "typeAnnotation": {
+                    "type": "TSBooleanKeyword"
+                  }
+                }
+              },
+              "computed": false,
+              "static": false,
+              "kind": "method",
+              "accessibility": "public"
+            },
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier",
+                "name": "IDENTIFIER_5"
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "generator": false,
+                "expression": false,
+                "async": false,
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "VariableDeclaration",
+                      "declarations": [
+                        {
+                          "type": "VariableDeclarator",
+                          "id": {
+                            "type": "Identifier",
+                            "name": "IDENTIFIER_18"
+                          },
+                          "init": {
+                            "type": "Literal",
+                            "value": 1440,
+                            "raw": "1440"
+                          }
+                        }
+                      ],
+                      "kind": "const"
+                    },
+                    {
+                      "type": "VariableDeclaration",
+                      "declarations": [
+                        {
+                          "type": "VariableDeclarator",
+                          "id": {
+                            "type": "Identifier",
+                            "name": "IDENTIFIER_19"
+                          },
+                          "init": {
+                            "type": "Literal",
+                            "value": 60,
+                            "raw": "60"
+                          }
+                        }
+                      ],
+                      "kind": "const"
+                    },
+                    {
+                      "type": "VariableDeclaration",
+                      "declarations": [
+                        {
+                          "type": "VariableDeclarator",
+                          "id": {
+                            "type": "Identifier",
+                            "name": "IDENTIFIER_20"
+                          },
+                          "init": {
+                            "type": "Literal",
+                            "value": 24,
+                            "raw": "24"
+                          }
+                        }
+                      ],
+                      "kind": "const"
+                    },
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "AssignmentExpression",
+                        "operator": "=",
+                        "left": {
+                          "type": "Identifier",
+                          "name": "IDENTIFIER_17"
+                        },
+                        "right": {
+                          "type": "ConditionalExpression",
+                          "test": {
+                            "type": "BinaryExpression",
+                            "operator": ">=",
+                            "left": {
+                              "type": "CallExpression",
+                              "callee": {
+                                "type": "MemberExpression",
+                                "object": {
+                                  "type": "Identifier",
+                                  "name": "IDENTIFIER_21"
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "name": "IDENTIFIER_22"
+                                },
+                                "computed": false,
+                                "optional": false
+                              },
+                              "arguments": [
+                                {
+                                  "type": "Identifier",
+                                  "name": "IDENTIFIER_17"
+                                }
+                              ],
+                              "optional": false
+                            },
+                            "right": {
+                              "type": "Identifier",
+                              "name": "IDENTIFIER_18"
+                            }
+                          },
+                          "consequent": {
+                            "type": "BinaryExpression",
+                            "operator": "%",
+                            "left": {
+                              "type": "Identifier",
+                              "name": "IDENTIFIER_17"
+                            },
+                            "right": {
+                              "type": "Identifier",
+                              "name": "IDENTIFIER_18"
+                            }
+                          },
+                          "alternate": {
+                            "type": "Identifier",
+                            "name": "IDENTIFIER_17"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "VariableDeclaration",
+                      "declarations": [
+                        {
+                          "type": "VariableDeclarator",
+                          "id": {
+                            "type": "Identifier",
+                            "name": "IDENTIFIER_23"
+                          },
+                          "init": {
+                            "type": "BinaryExpression",
+                            "operator": "+",
+                            "left": {
+                              "type": "BinaryExpression",
+                              "operator": "*",
+                              "left": {
+                                "type": "MemberExpression",
+                                "object": {
+                                  "type": "ThisExpression"
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "name": "IDENTIFIER_1"
+                                },
+                                "computed": false,
+                                "optional": false
+                              },
+                              "right": {
+                                "type": "Identifier",
+                                "name": "IDENTIFIER_19"
+                              }
+                            },
+                            "right": {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "ThisExpression"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "IDENTIFIER_2"
+                              },
+                              "computed": false,
+                              "optional": false
+                            }
+                          }
+                        }
+                      ],
+                      "kind": "const"
+                    },
+                    {
+                      "type": "VariableDeclaration",
+                      "declarations": [
+                        {
+                          "type": "VariableDeclarator",
+                          "id": {
+                            "type": "Identifier",
+                            "name": "IDENTIFIER_24"
+                          },
+                          "init": {
+                            "type": "BinaryExpression",
+                            "operator": "%",
+                            "left": {
+                              "type": "BinaryExpression",
+                              "operator": "+",
+                              "left": {
+                                "type": "Identifier",
+                                "name": "IDENTIFIER_23"
+                              },
+                              "right": {
+                                "type": "Identifier",
+                                "name": "IDENTIFIER_17"
+                              }
+                            },
+                            "right": {
+                              "type": "Identifier",
+                              "name": "IDENTIFIER_18"
+                            }
+                          }
+                        }
+                      ],
+                      "kind": "let"
+                    },
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "AssignmentExpression",
+                        "operator": "=",
+                        "left": {
+                          "type": "Identifier",
+                          "name": "IDENTIFIER_24"
+                        },
+                        "right": {
+                          "type": "ConditionalExpression",
+                          "test": {
+                            "type": "BinaryExpression",
+                            "operator": "<",
+                            "left": {
+                              "type": "Identifier",
+                              "name": "IDENTIFIER_24"
+                            },
+                            "right": {
+                              "type": "Literal",
+                              "value": 0,
+                              "raw": "0"
+                            }
+                          },
+                          "consequent": {
+                            "type": "AssignmentExpression",
+                            "operator": "+=",
+                            "left": {
+                              "type": "Identifier",
+                              "name": "IDENTIFIER_24"
+                            },
+                            "right": {
+                              "type": "Identifier",
+                              "name": "IDENTIFIER_18"
+                            }
+                          },
+                          "alternate": {
+                            "type": "Identifier",
+                            "name": "IDENTIFIER_24"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "AssignmentExpression",
+                        "operator": "=",
+                        "left": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "ThisExpression"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "IDENTIFIER_1"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "right": {
+                          "type": "BinaryExpression",
+                          "operator": "%",
+                          "left": {
+                            "type": "CallExpression",
+                            "callee": {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "IDENTIFIER_21"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "IDENTIFIER_25"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "arguments": [
+                              {
+                                "type": "BinaryExpression",
+                                "operator": "/",
+                                "left": {
+                                  "type": "Identifier",
+                                  "name": "IDENTIFIER_24"
+                                },
+                                "right": {
+                                  "type": "Identifier",
+                                  "name": "IDENTIFIER_19"
+                                }
+                              }
+                            ],
+                            "optional": false
+                          },
+                          "right": {
+                            "type": "Identifier",
+                            "name": "IDENTIFIER_20"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "AssignmentExpression",
+                        "operator": "=",
+                        "left": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "ThisExpression"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "IDENTIFIER_2"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "right": {
+                          "type": "BinaryExpression",
+                          "operator": "-",
+                          "left": {
+                            "type": "Identifier",
+                            "name": "IDENTIFIER_24"
+                          },
+                          "right": {
+                            "type": "BinaryExpression",
+                            "operator": "*",
+                            "left": {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "ThisExpression"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "IDENTIFIER_1"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "right": {
+                              "type": "Identifier",
+                              "name": "IDENTIFIER_19"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                },
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "name": "IDENTIFIER_17",
+                    "typeAnnotation": {
+                      "type": "TSTypeAnnotation",
+                      "typeAnnotation": {
+                        "type": "TSNumberKeyword"
+                      }
+                    }
+                  }
+                ],
+                "returnType": {
+                  "type": "TSTypeAnnotation",
+                  "typeAnnotation": {
+                    "type": "TSVoidKeyword"
+                  }
+                }
+              },
+              "computed": false,
+              "static": false,
+              "kind": "method",
+              "accessibility": "private"
+            }
+          ]
+        },
+        "superClass": null
+      },
+      "specifiers": [],
+      "source": null,
+      "exportKind": "value"
+    }
+  ],
+  "sourceType": "module"
+}

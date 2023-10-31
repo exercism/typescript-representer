@@ -1,0 +1,77 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "FunctionDeclaration",
+        "id": {
+          "type": "Identifier",
+          "name": "IDENTIFIER_0"
+        },
+        "generator": false,
+        "expression": false,
+        "async": false,
+        "params": [
+          {
+            "type": "AssignmentPattern",
+            "left": {
+              "type": "Identifier",
+              "name": "IDENTIFIER_1"
+            },
+            "right": {
+              "type": "Literal",
+              "value": "you",
+              "raw": "'you'"
+            }
+          }
+        ],
+        "body": {
+          "type": "BlockStatement",
+          "body": [
+            {
+              "type": "ReturnStatement",
+              "argument": {
+                "type": "TemplateLiteral",
+                "quasis": [
+                  {
+                    "type": "TemplateElement",
+                    "value": {
+                      "raw": "One for ",
+                      "cooked": "One for "
+                    },
+                    "tail": false
+                  },
+                  {
+                    "type": "TemplateElement",
+                    "value": {
+                      "raw": ", one for me.",
+                      "cooked": ", one for me."
+                    },
+                    "tail": true
+                  }
+                ],
+                "expressions": [
+                  {
+                    "type": "Identifier",
+                    "name": "IDENTIFIER_1"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "returnType": {
+          "type": "TSTypeAnnotation",
+          "typeAnnotation": {
+            "type": "TSStringKeyword"
+          }
+        }
+      },
+      "specifiers": [],
+      "source": null,
+      "exportKind": "value"
+    }
+  ],
+  "sourceType": "module"
+}
