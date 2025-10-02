@@ -1,6 +1,6 @@
 # @exercism/typescript-representer
 
-[![typescript-representer / deploy](https://github.com/exercism/typescript-representer/actions/workflows/deploys.yml/badge.svg)](https://github.com/exercism/typescript-representer/actions/workflows/deploys.yml)
+[![Deploy](https://github.com/exercism/typescript-representer/actions/workflows/deploy.yml/badge.svg)](https://github.com/exercism/typescript-representer/actions/workflows/deploy.yml)
 [![typescript-representer / main](https://github.com/exercism/typescript-representer/actions/workflows/ci.js.yml/badge.svg)](https://github.com/exercism/typescript-representer/actions/workflows/ci.js.yml)
 
 ## Installation
