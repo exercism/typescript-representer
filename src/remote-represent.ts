@@ -88,7 +88,7 @@ if (track !== 'javascript') {
 
 const spawnable = path.join(__dirname, '..', 'dist', `represent.js`)
 logger.log(
-  `-> executing node -r esm -r module-alias/register "${spawnable}" ${exerciseSlug} "${localPath}" ${process.argv
+  `-> executing node -r module-alias/register "${spawnable}" ${exerciseSlug} "${localPath}" ${process.argv
     .slice(4)
     .join(' ')}`
 )
@@ -98,8 +98,6 @@ logger.log(
 const representProcess = spawn(
   'node',
   [
-    '-r',
-    'esm',
     '-r',
     'module-alias/register',
     spawnable,
